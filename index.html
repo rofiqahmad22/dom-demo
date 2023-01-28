@@ -10,12 +10,17 @@
     <header>
       <h1>DOM Form</h1>
     </header>
-    <main>
+    <main id="main">
       <form id="todo-form">
-        <label for="todo-input">Input ToDo:</label>
-        <input type="text" id="todo-input" placeholder="What is your plan?" />
+        <label for="todo-input-text">Input ToDo:</label>
+        <input type="text" id="todo-" placeholder="What's your plan?" />
+        <button type="submit">Add</button>
       </form>
-      <button type="submit">Add</button>
+
+      <ul id="todo-list">
+        <li>Cleaning badroom</li>
+        <li>Breakfast</li>
+      </ul>
     </main>
 
     <script src="index.js"></script>
