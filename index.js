@@ -3,8 +3,8 @@ const todoListElement = document.getElementById("todo-list");
 
 todoFormElement.addEventListener("submit", (event) => {
   event.preventDefault();
-  const todoInputTextElement = document.getElementById("todo-input-text");
-  const todoText = todoInputTextElement.value;
+  const todoInputElement = document.getElementById("todo-input");
+  const todoText = todoInputElement.value;
   addNewTodo(todoText);
 });
 
